@@ -172,7 +172,7 @@ public class OyunEkraniActivity extends AppCompatActivity {
             Intent intent = new Intent(OyunEkraniActivity.this,SonucEkraniActivity.class);
             intent.putExtra("skor",skor);
             startActivity(intent);
-
+            finish();
 
         }
 
@@ -268,4 +268,5 @@ public class OyunEkraniActivity extends AppCompatActivity {
 
         anakarakter.setY(anakarakterY);
     }
+
 }
