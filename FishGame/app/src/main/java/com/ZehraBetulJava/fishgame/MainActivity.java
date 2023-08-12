@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private Animation animation;
     private AppCompatButton buttonBasla;
     private AdView banner;
-
     private InterstitialAd mInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void gecisReklamYukle(){
         AdRequest adRequest = new AdRequest.Builder().build();
-        InterstitialAd.load(MainActivity.this,"ca-app-pub-3940256099942544/1033173712", adRequest,
+        InterstitialAd.load(MainActivity.this,"ca-app-pub-8855046731536561/9410335284", adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
